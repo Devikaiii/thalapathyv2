@@ -1639,15 +1639,15 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('𝐎𝐖𝐍𝐄𝐑', url='https://t.me/ttRabit_bot'),
-            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='https://t.me/joinchat/DUXKgMEkKmU0ZDhl')
+            InlineKeyboardButton('👨‍💻𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋👨‍💻', url='https://t.me/TTRabit'),
+            InlineKeyboardButton('👥𝖦𝗋𝗈𝗎𝗉👥', url='https://t.me/CK_linkz')
         ],[
-            InlineKeyboardButton('𝐒𝐄𝐑𝐈𝐄𝐒', url='https://t.me/jzjzbzbi')
+            InlineKeyboardButton('📺𝖲𝖾𝗋𝗂𝖾𝗌📺', url='https://t.me/ckseries_linkz')
         ],[
-            InlineKeyboardButton('𝐀𝐋𝐋 𝐌𝐎𝐕𝐈𝐄𝐒', url='https://t.me/k_ungfu'),
-            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄', url='https://t.me/ste_pen')
+            InlineKeyboardButton('🎞️𝖤𝗇𝗀𝗅𝗂𝗌𝗁 𝖬𝗈𝗏𝗂𝖾𝗌🎞️', url='https://t.me/ckenglish_links'),
+            InlineKeyboardButton('🎬𝖭𝖾𝗐 𝖱𝖾𝗅𝖾𝖺𝗌𝖾🎬 ', url='https://t.me/Ckottrelease_links')
         ],[
-            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/gahsbsh')
+            InlineKeyboardButton('🎥𝖠𝗅𝗅 𝖬𝗈𝗏𝗂𝖾𝗌🎥', url='https://t.me/Ckallmovies_links')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         
@@ -1679,9 +1679,9 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👨‍💻ഉടമസ്ഥൻ👨‍💻', url='https://t.me/MRK_YT')
+            InlineKeyboardButton('👨‍💻Developer👨‍💻', url='https://t.me/TTRabit')
         ],[
-            InlineKeyboardButton('👥Group👥', url='https://t.me/joinchat/DUXKgMEkKmU0ZDhl')
+            InlineKeyboardButton('👥𝖦𝗋𝗈𝗎𝗉👥', url='https://t.me/CK_linkz')
         ],[
             InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
             InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
