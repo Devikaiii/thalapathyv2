@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/Mo_Tech_YT"
+                                    '🎬𝖭𝖾𝗐 𝖱𝖾𝗅𝖾𝖺𝗌𝖾🎬', url="https://t.me/Ckottrelease_links"
                                 )
                         ]
                     ]
@@ -47,15 +47,15 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('𝙷𝚎𝚕𝚙 🤔', callback_data="help")
+        InlineKeyboardButton('👨‍💻𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋👨‍💻', url='https://t.me/TTRabit'),
+        InlineKeyboardButton('𝖧𝖾𝗅𝗉 🤔', callback_data="help")
     ],[
-        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/uAHl5jvnrhk')
+        InlineKeyboardButton('👥𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉👥', url='https://t.me/PCSupportGroup_18')
     ],[
-        InlineKeyboardButton('🗣️ 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/Mo_Tech_group'),
-        InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤖', url='https://t.me/Mo_Tech_YT')
+        InlineKeyboardButton('🗣️𝖠𝗇𝗒 𝖣𝗈𝗎𝖻𝗍🗣️', url='https://t.me/PCSupportGroup_18'),
+        InlineKeyboardButton('📣𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾📣', url='https://t.me/TTRabit')
     ],[
-        InlineKeyboardButton('💥 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙼𝚢 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💥', url='https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ')
+        InlineKeyboardButton('🎬𝖭𝖾𝗐 𝖱𝖾𝗅𝖾𝖺𝗌𝖾🎬', url='https://t.me/Ckottrelease_links')
    ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -94,9 +94,9 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 @𝙼𝚛𝚔_𝚈𝚃 👤', url='https://t.me/MRK_YT')
+        InlineKeyboardButton('👨‍💻𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋👨‍💻', url='https://t.me/TTRabit')
     ],[
-        InlineKeyboardButton('👤 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶 👤', url='https://t.me/AlbertEinstein_TG')
+        InlineKeyboardButton('👥𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉👥', url='https://t.me/PCSupportGroup_18')
     ],[
         InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
         InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
