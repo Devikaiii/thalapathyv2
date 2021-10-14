@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/MRK_YT"
+                    "My Dev ⚡", url="https://t.me/ttRabit_bot"
                 ),
                 
             InlineKeyboardButton
@@ -1639,17 +1639,16 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url='https://t.me/MRK_YT'),
-            InlineKeyboardButton('𝙷𝚎𝚕𝚙 🤔', callback_data="help")
+            InlineKeyboardButton('𝐎𝐖𝐍𝐄𝐑', url='https://t.me/ttRabit_bot'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='https://t.me/joinchat/DUXKgMEkKmU0ZDhl')
         ],[
-            InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/uAHl5jvnrhk')
+            InlineKeyboardButton('𝐒𝐄𝐑𝐈𝐄𝐒', url='https://t.me/jzjzbzbi')
         ],[
-            InlineKeyboardButton('🗣️ 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/Mo_Tech_group'),
-            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤖', url='https://t.me/Mo_Tech_YT')
+            InlineKeyboardButton('𝐀𝐋𝐋 𝐌𝐎𝐕𝐈𝐄𝐒', url='https://t.me/k_ungfu'),
+            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄', url='https://t.me/ste_pen')
         ],[
-            InlineKeyboardButton('💥 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙼𝚢 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💥', url='https://youtu.be/uAHl5jvnrhk')
+            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/gahsbsh')
         ]]
-    
         reply_markup = InlineKeyboardMarkup(buttons)
         
         await update.message.edit_text(
@@ -1680,9 +1679,9 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤 @𝙼𝚛𝚔_𝚈𝚃 👤', url='https://t.me/MRK_YT')
+            InlineKeyboardButton('👨‍💻ഉടമസ്ഥൻ👨‍💻', url='https://t.me/MRK_YT')
         ],[
-            InlineKeyboardButton('𝙼𝚊𝚜𝚝𝚎𝚛 @𝙰𝚕𝚋𝚎𝚛𝚝𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗𝚃𝙶', url='https://t.me/AlbertEinsteinTG')
+            InlineKeyboardButton('👥Group👥', url='https://t.me/joinchat/DUXKgMEkKmU0ZDhl')
         ],[
             InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
             InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
